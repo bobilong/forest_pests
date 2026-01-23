@@ -18,8 +18,6 @@ Visualization of results using ggplot2, terra, and tidyterra
 
 📦 Dependencies
 Ensure the following R packages are installed:
-
-r
 library(terra)
 library(tidyterra)
 library(data.table)
@@ -33,19 +31,7 @@ library(gstat)
 library(ggforce)
 library(ggrepel)
 library(ggbeeswarm)
-📁 File Structure
-The script expects the following directory structure (adjust paths as needed):
 
-text
-/root/autodl-tmp/pests/
-├── GBIF/native_nonNative2/          # Pest richness rasters (native/non-native)
-├── Curtis_Forestry_10Percent_10km2.tif  # Timber production zones
-├── treeBiodiversity.tif             # Tree biodiversity raster
-├── restoration/carbon_resample.tif  # Carbon stock raster
-├── hasenForestCover_resample.tif    # Forest cover mask
-├── overlapResult/                   # Overlap analysis outputs
-├── result/                          # Model results (Moran's I, ML)
-└── WAEdata_new_y/result779/otherdata/Con_EU_dis.shp  # Country boundaries
 🔧 Key Functions
 1. patternMap()
 Generates pest richness maps and native/non-native ratio maps for a given pest type (all, animals, plants, diseases).
