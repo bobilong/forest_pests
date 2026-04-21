@@ -1,79 +1,86 @@
-Forest Pest Risk Analysis
-This repository contains an R script for analyzing global forest pest distribution patterns, assessing risks to forest services (timber, biodiversity, carbon), and evaluating spatial associations and drivers of pest exposure.
+# Forest Pests Impact on Ecosystem Services
 
-📌 Overview
-The code performs:
+This repository contains R scripts for analyzing the spatial distribution and impact of forest pests on key ecosystem services: timber production, biodiversity (diversity), and carbon sequestration. The analysis includes mapping pest enrichment patterns, identifying hotspots for native and non-native species, assessing spatial autocorrelation, and interpreting model predictions using SHAP (SHapley Additive exPlanations) values.
 
-Global mapping of pest richness (native vs. non-native)
+## Overview
 
-Identification of pest hotspots
+This project uses spatial data and statistical modeling to:
 
-Overlap analysis between pest exposure and forest services (timber, biodiversity, carbon)
+- Visualize pest species richness and the proportion of native vs. non-native species across global forests.
+- Identify hotspots where pest impacts overlap with ecosystem service provision.
+- Analyze spatial patterns and correlations using Moran I statistics.
+- Explain machine learning model predictions for pest impacts on ecosystem services.
 
-Spatial autocorrelation analysis (Moran’s I) for pest–service relationships
+The scripts generate various figures, including maps, Venn diagrams, heatmaps, and SHAP plots, as presented in the associated research paper.
 
-Machine learning modeling to identify key drivers of pest exposure
+## Files
 
-Visualization of results using ggplot2, terra, and tidyterra
+- `fig1.R`: Generates maps showing pest species enrichment and native/non-native composition differences.
+- `fig2.R`: Creates Venn diagrams illustrating overlaps between native and non-native pest hotspots across ecosystem services, along with bar plots of exposure types by country.
+- `fig3.R`: Produces heatmaps of Moran I spatial autocorrelation values categorized by country, ecosystem service, and native/non-native status.
+- `fig4.R`: Plots SHAP explanations for model predictions, including curves and boxplots for continuous and categorical variables across timber, diversity, and carbon services.
+- `supFig.R`: Contains supplementary figures, including percentile maps of enrichment, standardized reporting rate maps, residual boxplots by income group, forest cover plots, exposure area bar plots, and additional SHAP visualizations.
 
-📦 Dependencies
-Ensure the following R packages are installed:
-library(terra)
-library(tidyterra)
-library(data.table)
-library(ggplot2)
-library(paletteer)
-library(scales)
-library(patchwork)
-library(rnaturalearth)
-library(spdep)
-library(gstat)
-library(ggforce)
-library(ggrepel)
-library(ggbeeswarm)
+## Dependencies
 
-🔧 Key Functions
-1. patternMap()
-Generates pest richness maps and native/non-native ratio maps for a given pest type (all, animals, plants, diseases).
+The scripts require the following R packages:
 
-2. addplot()
-Creates binary overlap maps between pest hotspots and forest services.
+- `sf`
+- `ggplot2`
+- `viridis`
+- `patchwork`
+- `ggvenn`
+- `raster`
+- `terra`
+- `dplyr`
+- `tidyr`
+- `purrr`
+- `readr`
+- `stringr`
+- `forcats`
+- `scales`
+- `ggtext`
+- `cowplot`
+- `ggrepel`
+- `shapviz`
+- `pheatmap`
+- `RColorBrewer`
+- `gridExtra`
 
-3. addPiePlot()
-Produces pie charts showing the proportion of forest service area exposed to different pest risk categories.
+Install them using:
 
-4. get_k_moran()
-Finds the optimal k-nearest neighbors for Moran’s I bivariate spatial autocorrelation analysis.
+```r
+install.packages(c("sf", "ggplot2", "viridis", "patchwork", "ggvenn", "raster", "terra", "dplyr", "tidyr", "purrr", "readr", "stringr", "forcats", "scales", "ggtext", "cowplot", "ggrepel", "shapviz", "pheatmap", "RColorBrewer", "gridExtra"))
+```
 
-5. addPlot() & addShapPlot()
-Visualize machine learning feature importance and SHAP values for pest exposure models.
+## Data
 
-📈 Outputs
-The script generates several multi-panel figures:
+The scripts assume the presence of specific data files in the working directory or specified paths:
 
-Fig. 1: Pest richness and native/non-native ratio for all pests, animals, plants, and diseases.
+- Raster files: `native_hotspot.tif`, `non_native_hotspot.tif`, `enrichment_raster.tif`, etc.
+- CSV files: SHAP results (e.g., `shap_timber.csv`, `shap_diversity.csv`, `shap_carbon.csv`), Moran I data, and other tabular data.
+- Shapefiles: Global administrative boundaries and forest cover data.
 
-Fig. 2: Overlap between pest hotspots and forest services + pie charts of exposed areas.
+Ensure all required data files are available before running the scripts.
 
-Fig. 3: Spatial autocorrelation (Moran’s I) between pests and forest services across selected countries.
+## Usage
 
-Fig. 4: Machine learning feature importance and SHAP dependence plots.
+1. Set your working directory to the project folder.
+2. Load the necessary packages.
+3. Run the scripts in order (e.g., start with `fig1.R` for base maps).
 
-🚀 Usage
-Update file paths in the script to match your local directory structure.
+## Results
 
-Run the script sequentially to generate figures and intermediate files.
+- **Figure 1**: Maps of pest enrichment and native/non-native proportions.
+- **Figure 2**: Venn diagrams and bar plots of hotspot overlaps and country-level exposures.
+- **Figure 3**: Heatmaps of spatial autocorrelation.
+- **Figure 4**: SHAP plots explaining model predictions.
+- **Supplementary Figures**: Additional visualizations for enrichment percentiles, reporting rates, residuals, forest cover, and exposures.
 
-Adjust parameters (e.g., color palettes, thresholds) as needed for your analysis.
 
-📝 Notes
-The code assumes a global raster resolution of 0.5° (720×360 cells).
+## Citation
 
-Forest cover mask (hasenForestcover) is used to restrict analysis to forested areas.
 
-The Moran’s I analysis is performed for six focal countries/regions: USA, EU, Australia, Canada, China, UK.
+## Contact
 
-Machine learning models are trained separately for native and non-native pests across three forest services.
-
-📄 License
-This code is provided for research purposes. Please cite "Global exposure risk of timber production, carbon stocking, and biodiversity to forest pests" if used in publications.
+For questions or issues, please open an issue on GitHub.

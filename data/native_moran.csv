@@ -1,0 +1,55 @@
+countrName,opt_k,pest_type,tree_name,moranIndex,p_value
+United States,1,animals_native,timber,-0.133003048247,0.002
+EU,1,animals_native,timber,-0.0336824362483023,0.002
+Australia,1,animals_native,timber,-0.0809403754948695,0.008
+Canada,19,animals_native,timber,-0.103242670836978,0.002
+China,1,animals_native,timber,-0.0568778178435358,0.038
+United Kingdom,19,animals_native,timber,-0.0682257523250129,0.002
+United States,1,animals_native,diversity,0.204754004912555,0.002
+EU,1,animals_native,diversity,0.188896020501508,0.002
+Australia,1,animals_native,diversity,0.0969929431157631,0.044
+Canada,13,animals_native,diversity,0.219949593452604,0.002
+China,1,animals_native,diversity,0.232962185327808,0.002
+United Kingdom,19,animals_native,diversity,-0.0725065838520454,0.002
+United States,1,animals_native,carbon,0.0461762737024636,0.002
+EU,1,animals_native,carbon,-0.0971769111307142,0.002
+Australia,1,animals_native,carbon,0.00694496380853942,0.794
+Canada,13,animals_native,carbon,0.165316499532535,0.002
+China,1,animals_native,carbon,0.0977251233735834,0.002
+United Kingdom,19,animals_native,carbon,-0.031787674322512,0.002
+United States,19,diseaes_native,timber,-0.112083987778252,0.002
+EU,1,diseaes_native,timber,-0.0567677894934209,0.002
+Australia,1,diseaes_native,timber,-0.0779710347066036,0.002
+Canada,19,diseaes_native,timber,-0.156365383086508,0.002
+China,15,diseaes_native,timber,-0.0254719836505122,0.172
+United Kingdom,17,diseaes_native,timber,-0.0705516160350926,0.002
+United States,1,diseaes_native,diversity,0.0870833440467216,0.002
+EU,1,diseaes_native,diversity,0.228549853050769,0.002
+Australia,1,diseaes_native,diversity,-0.0116596347772032,0.72
+Canada,11,diseaes_native,diversity,0.0390476369212131,0.002
+China,19,diseaes_native,diversity,-0.0571889009067001,0.034
+United Kingdom,9,diseaes_native,diversity,-0.0726810592965889,0.002
+United States,19,diseaes_native,carbon,-0.0189887804487968,0.002
+EU,1,diseaes_native,carbon,-0.00589302837367697,0.564
+Australia,1,diseaes_native,carbon,0.0279822834209201,0.234
+Canada,11,diseaes_native,carbon,0.252169589861007,0.002
+China,7,diseaes_native,carbon,-0.0870495965822936,0.006
+United Kingdom,11,diseaes_native,carbon,0.121150912827509,0.002
+United States,1,plants_native,timber,-0.0796152254639291,0.002
+EU,1,plants_native,timber,-0.143948214143109,0.002
+Australia,1,plants_native,timber,0.32117537152018,0.002
+Canada,5,plants_native,timber,0.00207864389779486,0.962
+China,7,plants_native,timber,-0.0356359232987534,0.116
+United Kingdom,5,plants_native,timber,0.0361731638779023,0.6
+United States,1,plants_native,diversity,0.231436660136692,0.002
+EU,1,plants_native,diversity,-0.124926256734317,0.002
+Australia,1,plants_native,diversity,0.136802139725486,0.002
+Canada,5,plants_native,diversity,0.0292674790801796,0.43
+China,11,plants_native,diversity,0.122151722969273,0.002
+United Kingdom,7,plants_native,diversity,0.282368045490269,0.002
+United States,19,plants_native,carbon,-0.0976807089595326,0.002
+EU,1,plants_native,carbon,0.0937279418164641,0.002
+Australia,1,plants_native,carbon,0.114950920717296,0.002
+Canada,5,plants_native,carbon,0.210089018502744,0.002
+China,7,plants_native,carbon,0.224815756406144,0.002
+United Kingdom,11,plants_native,carbon,0.0334334020495882,0.358
