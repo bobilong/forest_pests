@@ -69,6 +69,44 @@ Ensure all required data files are available before running the scripts.
 2. Load the necessary packages.
 3. Run the scripts in order (e.g., start with `fig1.R` for base maps).
 
+## Model Card
+
+### Model purpose
+
+This project uses machine learning models to estimate the probability of forest pest exposure across global forest grids. Separate models are fitted for different ecosystem services, including timber production, biodiversity, and carbon storage, and for pest records within and outside host native ranges.
+
+The main objective of the model is not to predict individual pest outbreaks, but to identify broad-scale environmental, socioeconomic, and forest-structure drivers associated with pest exposure patterns.
+
+### Prediction task
+
+The model is formulated as a binary classification task. The response variable is `sum`, which is converted to a factor before model fitting:
+
+- `0`: grid cell without pest exposure or hotspot status.
+- `1`: grid cell with pest exposure or hotspot status.
+
+The positive class is defined as `1` during model evaluation.
+
+### Model type
+
+The predictive model is a random forest classifier implemented with the `ranger` R package.
+
+For each input dataset, the workflow:
+
+1. Reads the corresponding pest-service dataset.
+2. Converts the binary response variable and forest type variable to factors.
+3. Applies class-balanced subsampling to reduce computational cost.
+4. Divides the data into spatial blocks using `blockCV::cv_spatial()`.
+5. Uses spatial cross-validation to tune model parameters.
+6. Fits a final random forest model using the selected parameters.
+7. Evaluates the model on an external spatial holdout block.
+8. Estimates variable importance using permutation importance.
+9. Computes SHAP values using `fastshap` to interpret model predictions.
+
+### Spatial validation strategy
+
+To reduce spatial overfitting, the analysis uses spatial block cross-validation rather than random cross-validation.
+
+
 ## Results
 
 - **Figure 1**: Maps of pest enrichment and native/non-native proportions.
