@@ -19,7 +19,7 @@ pal <- paletteer_dynamic("cartography::orange.pal", 20)
 
 ######fig1 pest pattern ################
 #all pests
-allTif <- list.files('./data',full.names = T)
+allTif <- list.files('pests/forest_pests/data/',full.names = T)
 
 patternMap <- function(typeName,tagName1,tagName2){
   all_r <- grep(paste0(typeName,'_all.tif'),allTif,value=T) %>% rast() %>% resample(globalRaster,'near')
@@ -28,7 +28,7 @@ patternMap <- function(typeName,tagName1,tagName2){
   
   p1 <- ggplot() +
     geom_spatraster(data = r_cap) +
-    geom_spatvector(data=continentPolygon,fill='grey',alpha=0.2)+
+    geom_spatvector(data=continentPolygon,fill='grey70',alpha=0.2)+
     coord_sf(crs = crs,xlim=c(-160,163.5),ylim=c(-56,83))+
     theme_bw()+
     scale_fill_gradientn(
@@ -38,7 +38,7 @@ patternMap <- function(typeName,tagName1,tagName2){
       breaks  = c(1, 4, 8, 12),     
       labels  = c("1", "4", "8", "≥12"),
       # trans   = power_trans(0.6),   
-      na.value = "grey70",
+      na.value = "white",
       name    = "Richness"
     )+
     labs(tag=tagName1)+
@@ -59,7 +59,7 @@ patternMap <- function(typeName,tagName1,tagName2){
       legend.key.width = unit(1,'cm'),
       legend.key.height = unit(0.15,'cm')
     )
-  
+ 
   native_r <- grep(paste0(typeName,'_native.tif'),allTif,value=T) %>% rast()
   nonnative_r <- grep(paste0(typeName,'_non_native.tif'),allTif,value=T) %>% rast()
   diff_r <- native_r - nonnative_r
@@ -74,7 +74,7 @@ patternMap <- function(typeName,tagName1,tagName2){
   
   p2 <- ggplot() +
     geom_spatraster(data = rel_resample,maxcell = 1036800) +
-    geom_spatvector(data=continentPolygon,fill='grey',alpha=0.2)+
+    geom_spatvector(data=continentPolygon,fill='grey70',alpha=0.2)+
     coord_sf(crs = crs,xlim=c(-160,163.5),ylim=c(-56,83))+
     theme_void()+
     guides(
@@ -84,7 +84,7 @@ patternMap <- function(typeName,tagName1,tagName2){
                          # labels=scales::label_number(accuracy = 1),
                          # transform='log10',
                          # limits=c(1,108),
-                         na.value='grey70')+
+                         na.value='white')+
     labs(tag  =tagName2)+
     theme_bw()+
     theme(
