@@ -19,7 +19,7 @@ pal <- paletteer_dynamic("cartography::orange.pal", 20)
 
 ######fig1 pest pattern ################
 #all pests
-allTif <- list.files('pests/forest_pests/data/',full.names = T)
+allTif <- list.files('./data/',full.names = T)
 
 patternMap <- function(typeName,tagName1,tagName2){
   all_r <- grep(paste0(typeName,'_all.tif'),allTif,value=T) %>% rast() %>% resample(globalRaster,'near')

@@ -279,7 +279,7 @@ analyze_pest_data <- function(file_path,
   fwrite(shap_sample, paste0(out_dir, type, '_', service, '_shap.csv'))
 }
 #import data ----
-predictPath <- list.files('forest_pests/data/driverDf/', full.names = TRUE)
+predictPath <- list.files('./data/driverDf/', full.names = TRUE)
 
 # #process data
 purrr::map_dfr(predictPath, analyze_pest_data)

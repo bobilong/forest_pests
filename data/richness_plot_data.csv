@@ -1,0 +1,178 @@
+ISO_A3,NAME_LONG,INCOME_GRP,CONTINENT,SUBREGION,total_richness,total_records,log10_total_richness,log10_total_records
+FJI,Fiji,4. Lower middle income,Oceania,Melanesia,13,109,1.14612803567824,2.04139268515823
+TZA,Tanzania,5. Low income,Africa,Eastern Africa,26,178,1.43136376415899,2.25285303097989
+ESH,Western Sahara,5. Low income,Africa,Northern Africa,,,,
+CAN,Canada,1. High income: OECD,North America,Northern America,192,47069,2.28555730900777,4.6727441983066
+USA,United States,1. High income: OECD,North America,Northern America,575,327222,2.76042248342321,5.51484382196147
+KAZ,Kazakhstan,3. Upper middle income,Asia,Central Asia,14,48,1.17609125905568,1.69019608002851
+UZB,Uzbekistan,4. Lower middle income,Asia,Central Asia,10,192,1.04139268515822,2.28555730900777
+PNG,Papua New Guinea,4. Lower middle income,Oceania,Melanesia,61,503,1.79239168949825,2.70243053644553
+IDN,Indonesia,4. Lower middle income,Asia,South-Eastern Asia,67,1278,1.83250891270624,3.10687054447865
+ARG,Argentina,3. Upper middle income,South America,South America,63,4767,1.80617997398389,3.67833624673218
+CHL,Chile,3. Upper middle income,South America,South America,46,3976,1.67209785793572,3.59955559098598
+COD,Democratic Republic of the Congo,5. Low income,Africa,Middle Africa,11,32,1.07918124604762,1.51851393987789
+SOM,Somalia,5. Low income,Africa,Eastern Africa,2,8,0.477121254719662,0.954242509439325
+KEN,Kenya,5. Low income,Africa,Eastern Africa,48,262,1.69019608002851,2.41995574848976
+SDN,Sudan,4. Lower middle income,Africa,Northern Africa,4,20,0.698970004336019,1.32221929473392
+TCD,Chad,5. Low income,Africa,Middle Africa,4,17,0.698970004336019,1.25527250510331
+HTI,Haiti,5. Low income,North America,Caribbean,10,22,1.04139268515822,1.36172783601759
+DOM,Dominican Republic,3. Upper middle income,North America,Caribbean,32,265,1.51851393987789,2.42488163663107
+RUS,Russian Federation,3. Upper middle income,Europe,Eastern Europe,155,4505,2.19312459835446,3.65379118738781
+BHS,Bahamas,2. High income: nonOECD,North America,Caribbean,5,7,0.778151250383644,0.903089986991944
+FLK,Falkland Islands / Malvinas,1. High income: OECD,South America,South America,,,,
+NOR,Norway,1. High income: OECD,Europe,Northern Europe,84,3491,1.92941892571429,3.54307423503353
+GRL,Greenland,2. High income: nonOECD,North America,Northern America,1,1,0.301029995663981,0.301029995663981
+ATF,French Southern and Antarctic Lands,2. High income: nonOECD,Seven seas (open ocean),Seven seas (open ocean),1,26,0.301029995663981,1.43136376415899
+TLS,Timor-Leste,4. Lower middle income,Asia,South-Eastern Asia,5,30,0.778151250383644,1.49136169383427
+ZAF,South Africa,3. Upper middle income,Africa,Southern Africa,97,2815,1.9912260756925,3.44963265047007
+LSO,Lesotho,4. Lower middle income,Africa,Southern Africa,3,4,0.602059991327962,0.698970004336019
+MEX,Mexico,3. Upper middle income,North America,Central America,195,14100,2.29225607135648,4.14924991259028
+URY,Uruguay,3. Upper middle income,South America,South America,24,134,1.39794000867204,2.13033376849501
+BRA,Brazil,3. Upper middle income,South America,South America,148,4630,2.17318626841227,3.66567478099389
+BOL,Bolivia,4. Lower middle income,South America,South America,27,232,1.44715803134222,2.36735592102602
+PER,Peru,3. Upper middle income,South America,South America,48,628,1.69019608002851,2.79865064544527
+COL,Colombia,3. Upper middle income,South America,South America,97,9504,1.9912260756925,3.97795212120146
+PAN,Panama,3. Upper middle income,North America,Central America,27,154,1.44715803134222,2.19033169817029
+CRI,Costa Rica,3. Upper middle income,North America,Central America,60,531,1.78532983501077,2.72591163229505
+NIC,Nicaragua,4. Lower middle income,North America,Central America,20,194,1.32221929473392,2.29003461136252
+HND,Honduras,4. Lower middle income,North America,Central America,33,191,1.53147891704226,2.28330122870355
+SLV,El Salvador,4. Lower middle income,North America,Central America,20,57,1.32221929473392,1.76342799356294
+GTM,Guatemala,4. Lower middle income,North America,Central America,36,167,1.568201724067,2.22530928172586
+BLZ,Belize,4. Lower middle income,North America,Central America,12,52,1.11394335230684,1.72427586960079
+VEN,Venezuela,3. Upper middle income,South America,South America,39,190,1.60205999132796,2.28103336724773
+GUY,Guyana,4. Lower middle income,South America,South America,8,15,0.954242509439325,1.20411998265592
+SUR,Suriname,3. Upper middle income,South America,South America,11,17,1.07918124604762,1.25527250510331
+FRA,France,1. High income: OECD,Europe,Western Europe,441,821180,2.64542226934909,5.91443889236609
+ECU,Ecuador,3. Upper middle income,South America,South America,37,1354,1.57978359661681,3.13193929521042
+PRI,Puerto Rico,2. High income: nonOECD,North America,Caribbean,47,610,1.68124123737559,2.78604121024255
+JAM,Jamaica,3. Upper middle income,North America,Caribbean,17,132,1.25527250510331,2.12385164096709
+CUB,Cuba,3. Upper middle income,North America,Caribbean,25,100,1.41497334797082,2.00432137378264
+ZWE,Zimbabwe,5. Low income,Africa,Eastern Africa,23,284,1.38021124171161,2.45484486000851
+BWA,Botswana,3. Upper middle income,Africa,Southern Africa,21,179,1.34242268082221,2.25527250510331
+NAM,Namibia,3. Upper middle income,Africa,Southern Africa,11,177,1.07918124604762,2.25042000230889
+SEN,Senegal,4. Lower middle income,Africa,Western Africa,13,53,1.14612803567824,1.73239375982297
+MLI,Mali,5. Low income,Africa,Western Africa,10,59,1.04139268515822,1.77815125038364
+MRT,Mauritania,5. Low income,Africa,Western Africa,4,33,0.698970004336019,1.53147891704226
+BEN,Benin,5. Low income,Africa,Western Africa,59,3844,1.77815125038364,3.58489634413745
+NER,Niger,5. Low income,Africa,Western Africa,15,63,1.20411998265592,1.80617997398389
+NGA,Nigeria,4. Lower middle income,Africa,Western Africa,29,236,1.47712125471966,2.3747483460101
+CMR,Cameroon,4. Lower middle income,Africa,Middle Africa,23,112,1.38021124171161,2.05307844348342
+TGO,Togo,5. Low income,Africa,Western Africa,24,107,1.39794000867204,2.03342375548695
+GHA,Ghana,4. Lower middle income,Africa,Western Africa,22,177,1.36172783601759,2.25042000230889
+CIV,Côte d'Ivoire,4. Lower middle income,Africa,Western Africa,44,194,1.65321251377534,2.29003461136252
+GIN,Guinea,5. Low income,Africa,Western Africa,6,9,0.845098040014257,1
+GNB,Guinea-Bissau,5. Low income,Africa,Western Africa,5,6,0.778151250383644,0.845098040014257
+LBR,Liberia,5. Low income,Africa,Western Africa,4,8,0.698970004336019,0.954242509439325
+SLE,Sierra Leone,5. Low income,Africa,Western Africa,1,3,0.301029995663981,0.602059991327962
+BFA,Burkina Faso,5. Low income,Africa,Western Africa,10,42,1.04139268515822,1.63346845557959
+CAF,Central African Republic,5. Low income,Africa,Middle Africa,6,132,0.845098040014257,2.12385164096709
+COG,Republic of the Congo,4. Lower middle income,Africa,Middle Africa,8,44,0.954242509439325,1.65321251377534
+GAB,Gabon,3. Upper middle income,Africa,Middle Africa,13,455,1.14612803567824,2.65896484266444
+GNQ,Equatorial Guinea,2. High income: nonOECD,Africa,Middle Africa,2,6,0.477121254719662,0.845098040014257
+ZMB,Zambia,4. Lower middle income,Africa,Eastern Africa,24,112,1.39794000867204,2.05307844348342
+MWI,Malawi,5. Low income,Africa,Eastern Africa,17,83,1.25527250510331,1.92427928606188
+MOZ,Mozambique,5. Low income,Africa,Eastern Africa,22,137,1.36172783601759,2.13987908640124
+SWZ,Kingdom of eSwatini,4. Lower middle income,Africa,Southern Africa,8,81,0.954242509439325,1.91381385238372
+AGO,Angola,3. Upper middle income,Africa,Middle Africa,6,9,0.845098040014257,1
+BDI,Burundi,5. Low income,Africa,Eastern Africa,6,13,0.845098040014257,1.14612803567824
+ISR,Israel,1. High income: OECD,Asia,Western Asia,66,3583,1.82607480270083,3.55436800099009
+LBN,Lebanon,3. Upper middle income,Asia,Western Asia,7,15,0.903089986991944,1.20411998265592
+MDG,Madagascar,5. Low income,Africa,Eastern Africa,21,244,1.34242268082221,2.38916608436453
+PSE,Palestine,4. Lower middle income,Asia,Western Asia,16,120,1.23044892137827,2.08278537031645
+GMB,The Gambia,5. Low income,Africa,Western Africa,11,83,1.07918124604762,1.92427928606188
+TUN,Tunisia,3. Upper middle income,Africa,Northern Africa,4,6,0.698970004336019,0.845098040014257
+DZA,Algeria,3. Upper middle income,Africa,Northern Africa,32,127,1.51851393987789,2.10720996964787
+JOR,Jordan,3. Upper middle income,Asia,Western Asia,7,10,0.903089986991944,1.04139268515822
+ARE,United Arab Emirates,2. High income: nonOECD,Asia,Western Asia,10,22,1.04139268515822,1.36172783601759
+QAT,Qatar,2. High income: nonOECD,Asia,Western Asia,1,3,0.301029995663981,0.602059991327962
+KWT,Kuwait,2. High income: nonOECD,Asia,Western Asia,3,8,0.602059991327962,0.954242509439325
+IRQ,Iraq,4. Lower middle income,Asia,Western Asia,12,28,1.11394335230684,1.46239799789896
+OMN,Oman,2. High income: nonOECD,Asia,Western Asia,11,17,1.07918124604762,1.25527250510331
+VUT,Vanuatu,4. Lower middle income,Oceania,Melanesia,5,10,0.778151250383644,1.04139268515822
+KHM,Cambodia,5. Low income,Asia,South-Eastern Asia,22,2740,1.36172783601759,3.4379090355395
+THA,Thailand,3. Upper middle income,Asia,South-Eastern Asia,55,1318,1.7481880270062,3.12024479554637
+LAO,Lao PDR,4. Lower middle income,Asia,South-Eastern Asia,20,63,1.32221929473392,1.80617997398389
+MMR,Myanmar,5. Low income,Asia,South-Eastern Asia,28,92,1.46239799789896,1.96848294855394
+VNM,Vietnam,4. Lower middle income,Asia,South-Eastern Asia,44,432,1.65321251377534,2.63648789635337
+PRK,Dem. Rep. Korea,5. Low income,Asia,Eastern Asia,10,17,1.04139268515822,1.25527250510331
+KOR,Republic of Korea,1. High income: OECD,Asia,Eastern Asia,98,3690,1.99563519459755,3.56714404519566
+MNG,Mongolia,4. Lower middle income,Asia,Eastern Asia,2,3,0.477121254719662,0.602059991327962
+IND,India,4. Lower middle income,Asia,Southern Asia,125,4787,2.10037054511756,3.68015414173437
+BGD,Bangladesh,5. Low income,Asia,Southern Asia,24,8168,1.39794000867204,3.91216889605963
+BTN,Bhutan,4. Lower middle income,Asia,Southern Asia,12,27,1.11394335230684,1.44715803134222
+NPL,Nepal,5. Low income,Asia,Southern Asia,21,100,1.34242268082221,2.00432137378264
+PAK,Pakistan,4. Lower middle income,Asia,Southern Asia,24,168,1.39794000867204,2.22788670461367
+AFG,Afghanistan,5. Low income,Asia,Southern Asia,9,36,1,1.568201724067
+TJK,Tajikistan,5. Low income,Asia,Central Asia,7,14,0.903089986991944,1.17609125905568
+KGZ,Kyrgyzstan,5. Low income,Asia,Central Asia,6,18,0.845098040014257,1.27875360095283
+TKM,Turkmenistan,3. Upper middle income,Asia,Central Asia,,,,
+IRN,Iran,3. Upper middle income,Asia,Southern Asia,23,64,1.38021124171161,1.81291335664286
+SYR,Syria,4. Lower middle income,Asia,Western Asia,18,80,1.27875360095283,1.90848501887865
+ARM,Armenia,4. Lower middle income,Asia,Western Asia,9,112,1,2.05307844348342
+SWE,Sweden,1. High income: OECD,Europe,Northern Europe,209,31941,2.32221929473392,4.50436210534569
+BLR,Belarus,3. Upper middle income,Europe,Eastern Europe,30,274,1.49136169383427,2.43933269383026
+UKR,Ukraine,4. Lower middle income,Europe,Eastern Europe,102,1886,2.01283722470517,3.27577190016493
+POL,Poland,1. High income: OECD,Europe,Eastern Europe,96,2427,1.98677173426624,3.38524868240322
+AUT,Austria,1. High income: OECD,Europe,Western Europe,400,45069,2.60314437262018,4.65388755807098
+HUN,Hungary,1. High income: OECD,Europe,Eastern Europe,147,4791,2.17026171539496,3.68051680938126
+MDA,Moldova,4. Lower middle income,Europe,Eastern Europe,8,23,0.954242509439325,1.38021124171161
+ROU,Romania,3. Upper middle income,Europe,Eastern Europe,65,1411,1.81954393554187,3.14983469671579
+LTU,Lithuania,3. Upper middle income,Europe,Northern Europe,38,1429,1.5910646070265,3.15533603746506
+LVA,Latvia,3. Upper middle income,Europe,Northern Europe,11,94,1.07918124604762,1.97772360528885
+EST,Estonia,1. High income: OECD,Europe,Northern Europe,50,707,1.70757017609794,2.85003325768977
+DEU,Germany,1. High income: OECD,Europe,Western Europe,401,59198,2.60422605308447,4.77231437060552
+BGR,Bulgaria,3. Upper middle income,Europe,Eastern Europe,61,384,1.79239168949825,2.5854607295085
+GRC,Greece,1. High income: OECD,Europe,Southern Europe,112,956,2.05307844348342,2.98091193777684
+TUR,Turkey,3. Upper middle income,Asia,Western Asia,60,242,1.78532983501077,2.38560627359831
+ALB,Albania,4. Lower middle income,Europe,Southern Europe,19,163,1.30102999566398,2.2148438480477
+HRV,Croatia,2. High income: nonOECD,Europe,Southern Europe,91,1871,1.96378782734556,3.27230584440209
+CHE,Switzerland,1. High income: OECD,Europe,Western Europe,170,29082,2.23299611039215,4.46363920329584
+LUX,Luxembourg,1. High income: OECD,Europe,Western Europe,81,2842,1.91381385238372,3.45377685969044
+BEL,Belgium,1. High income: OECD,Europe,Western Europe,177,225569,2.25042000230889,5.35328133954529
+NLD,Netherlands,1. High income: OECD,Europe,Western Europe,178,129483,2.25285303097989,5.11221610709673
+PRT,Portugal,1. High income: OECD,Europe,Southern Europe,112,12359,2.05307844348342,4.0920184707528
+ESP,Spain,1. High income: OECD,Europe,Southern Europe,346,608364,2.54032947479087,5.78416422059446
+IRL,Ireland,1. High income: OECD,Europe,Northern Europe,49,353,1.69897000433602,2.54900326202579
+NCL,New Caledonia,2. High income: nonOECD,Oceania,Melanesia,24,134,1.39794000867204,2.13033376849501
+SLB,Solomon Islands,4. Lower middle income,Oceania,Melanesia,1,1,0.301029995663981,0.301029995663981
+NZL,New Zealand,1. High income: OECD,Oceania,Australia and New Zealand,110,9831,2.04532297878666,3.9926418698784
+AUS,Australia,1. High income: OECD,Oceania,Australia and New Zealand,334,291528,2.52504480703685,5.46468176291503
+LKA,Sri Lanka,4. Lower middle income,Asia,Southern Asia,45,508,1.66275783168157,2.70671778233676
+CHN,China,3. Upper middle income,Asia,Eastern Asia,243,11624,2.38738982633873,4.06539296156199
+TWN,Taiwan,2. High income: nonOECD,Asia,Eastern Asia,159,15550,2.20411998265593,4.19175832137045
+ITA,Italy,1. High income: OECD,Europe,Southern Europe,325,16019,2.51321760006794,4.20466251174822
+DNK,Denmark,1. High income: OECD,Europe,Northern Europe,145,2975,2.16435285578444,3.47363292687384
+GBR,United Kingdom,1. High income: OECD,Europe,Northern Europe,312,89295,2.49554433754645,4.95083200517259
+ISL,Iceland,1. High income: OECD,Europe,Northern Europe,11,3861,1.07918124604762,3.58681226944338
+AZE,Azerbaijan,3. Upper middle income,Asia,Western Asia,4,5,0.698970004336019,0.778151250383644
+GEO,Georgia,4. Lower middle income,Asia,Western Asia,23,134,1.38021124171161,2.13033376849501
+PHL,Philippines,4. Lower middle income,Asia,South-Eastern Asia,39,829,1.60205999132796,2.91907809237607
+MYS,Malaysia,3. Upper middle income,Asia,South-Eastern Asia,62,1815,1.79934054945358,3.25911584418507
+BRN,Brunei Darussalam,2. High income: nonOECD,Asia,South-Eastern Asia,7,12,0.903089986991944,1.11394335230684
+SVN,Slovenia,1. High income: OECD,Europe,Southern Europe,131,104386,2.12057393120585,5.01864641648419
+FIN,Finland,1. High income: OECD,Europe,Northern Europe,265,18223,2.42488163663107,4.26064370673503
+SVK,Slovakia,1. High income: OECD,Europe,Eastern Europe,100,36507,2.00432137378264,4.56238804185811
+CZE,Czech Republic,1. High income: OECD,Europe,Eastern Europe,101,2202,2.00860017176192,3.34301449715077
+ERI,Eritrea,5. Low income,Africa,Eastern Africa,1,2,0.301029995663981,0.477121254719662
+JPN,Japan,1. High income: OECD,Asia,Eastern Asia,130,16400,2.11727129565576,4.21487032861122
+PRY,Paraguay,4. Lower middle income,South America,South America,24,161,1.39794000867204,2.20951501454263
+YEM,Yemen,4. Lower middle income,Asia,Western Asia,1,10,0.301029995663981,1.04139268515822
+SAU,Saudi Arabia,2. High income: nonOECD,Asia,Western Asia,5,5,0.778151250383644,0.778151250383644
+ATA,Antarctica,2. High income: nonOECD,Antarctica,Antarctica,,,,
+CYP,Northern Cyprus,3. Upper middle income,Asia,Western Asia,25,105,1.41497334797082,2.02530586526477
+CYP,Cyprus,2. High income: nonOECD,Asia,Western Asia,25,105,1.41497334797082,2.02530586526477
+MAR,Morocco,4. Lower middle income,Africa,Northern Africa,39,152,1.60205999132796,2.1846914308176
+EGY,Egypt,4. Lower middle income,Africa,Northern Africa,16,36,1.23044892137827,1.568201724067
+LBY,Libya,3. Upper middle income,Africa,Northern Africa,,,,
+ETH,Ethiopia,5. Low income,Africa,Eastern Africa,24,129,1.39794000867204,2.11394335230684
+DJI,Djibouti,4. Lower middle income,Africa,Eastern Africa,,,,
+,Somaliland,4. Lower middle income,Africa,Eastern Africa,,,,
+UGA,Uganda,5. Low income,Africa,Eastern Africa,27,508,1.44715803134222,2.70671778233676
+RWA,Rwanda,5. Low income,Africa,Eastern Africa,8,21,0.954242509439325,1.34242268082221
+BIH,Bosnia and Herzegovina,3. Upper middle income,Europe,Southern Europe,17,68,1.25527250510331,1.83884909073726
+MKD,North Macedonia,3. Upper middle income,Europe,Southern Europe,10,23,1.04139268515822,1.38021124171161
+SRB,Serbia,3. Upper middle income,Europe,Southern Europe,103,1733,2.01703333929878,3.23904909314019
+MNE,Montenegro,3. Upper middle income,Europe,Southern Europe,18,45,1.27875360095283,1.66275783168157
+,Kosovo,4. Lower middle income,Europe,Southern Europe,,,,
+TTO,Trinidad and Tobago,2. High income: nonOECD,North America,Caribbean,20,102,1.32221929473392,2.01283722470517
+SSD,South Sudan,5. Low income,Africa,Eastern Africa,3,6,0.602059991327962,0.845098040014257

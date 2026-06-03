@@ -26,6 +26,7 @@ The scripts generate various figures, including maps, Venn diagrams, heatmaps, a
 The scripts require the following R packages:
 
 - `sf`
+- `data.table`
 - `ggplot2`
 - `viridis`
 - `patchwork`
